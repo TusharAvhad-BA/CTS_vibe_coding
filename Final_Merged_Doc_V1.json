@@ -1,0 +1,36 @@
+{
+  "project-name": "BA Customer Mobile App \u2013 GGL Boarding pass changes for Phoenix rebranding.",
+  "target-release": "R413",
+  "project-contacts": "Anubrata, Tathagata, Tushar, Gairik",
+  "form-completed-by": "Anubrata Dutta",
+  "date": "19/04/25",
+  "why": "Changes made to accommodate new tier for GGL members and new colours for boarding passes for GGL members.",
+  "in-scope": [
+    "WSAuthenticateAndIssueNonExecBoardingPassV1",
+    "WSAuthenticateAndIssuePassbookV1"
+  ],
+  "out-of-scope": [],
+  "technical-changes": "Changes have been made to the following CAP webservices: \nWSAuthenticateAndIssueNonExecBoardingPassV1 \nWSAuthenticateAndIssuePassbookV1",
+  "dependencies": "N/A",
+  "code-refactoring": "YES",
+  "testing-requirements": [
+    "Retrieve boarding pass for Android",
+    "Issue Passbook for iOS"
+  ],
+  "mobile-impact": "This is a Mobile only change and the details has been provided on the above section(We do some regression testing for mobile so if any of your changes impact functionality/web services on mobile, then please provide the details so that we can analyse and update the test cases accordingly).",
+  "future-regression-testing": "N/A(that is, list of scenarios that need to be tested in future releases?)",
+  "environment": "caplive758",
+  "additional-notes": "N/A",
+  "regression-functionality-areas": [
+    "Flight Selling",
+    "Mobile",
+    "Payment",
+    "Loyalty",
+    "Change Booking",
+    "MMB and Servicing",
+    "Pegasus",
+    "BoD",
+    "APIS",
+    "Other (please describe briefly):"
+  ]
+}
